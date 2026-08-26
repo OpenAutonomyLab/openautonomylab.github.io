@@ -19,7 +19,7 @@ hero_link_text2: See Our Team
 Our mission is to advance the state of the art in autonomous robots and systems.
 
 <!-- TODO: replace with your institution / affiliation, or remove this line -->
-We are part of [Your Institution].
+We are part of [Department of Electrical Engineering and Computer Science](https://www.dgist.ac.kr/en_eecs/index.do) at [DGIST](https://www.dgist.ac.kr/eng/index.do), South Korea.
 
 # Highlights
 
