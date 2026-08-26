@@ -1,0 +1,39 @@
+<style>
+  #blocks {
+      width:100%;
+      margin:0 auto;
+  }
+</style>
+
+<footer class="footer">
+    <div class="container">
+        <!-- {% if site.footer_menu %}
+        <div class="columns is-multiline">
+            {% for item in site.data[site.footer_menu] %}
+            <div class="column has-text-centered">
+                <div>
+                    <a href="{{ item.link | prepend: site.baseurl }}" class="link">{{ item.name }}</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %} -->
+        <div id="blocks">
+          <center>
+            <!-- TODO: update or remove these social links -->
+            <a class="button" itemprop="github" href="https://github.com/OpenAutonomyLab" aria-label="link to lab github account" target="_blank">
+              <i class="fab fa-github fa-lg"></i>
+            </a>
+            <a class="button" itemprop="youtube" href="#" aria-label="link to lab youtube account" target="_blank">
+              <i class="fab fa-youtube fa-lg"></i>
+            </a>
+            <a class="button" itemprop="linkedin" href="#" aria-label="link to lab linkedin account" target="_blank">
+              <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+            <br>
+            <br>
+            <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }} | Built using the <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a></p>
+          </center>
+        </div>
+    </div>
+</footer>
