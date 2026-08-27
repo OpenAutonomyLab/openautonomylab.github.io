@@ -28,29 +28,21 @@ div.highlight {
 }
 
 .navbar.is-primary {
-    background-color: #ffffff;
+    background-color: #ffffff !important;
 
     .navbar-item,
     .navbar-link,
-    .navbar-brand > .navbar-item {
-        color: #000000;
+    .navbar-dropdown .navbar-item {
+        color: #000000 !important;
+        background-color: #ffffff !important;
     }
 
     .navbar-link:not(.is-arrowless)::after {
-        border-color: #000000;
+        border-color: #000000 !important;
     }
 
     .navbar-burger {
-        color: #000000;
-    }
-
-    @include from($navbar-breakpoint) {
-        .navbar-start > .navbar-item,
-        .navbar-end > .navbar-item,
-        .navbar-start .navbar-link,
-        .navbar-end .navbar-link {
-            color: #000000;
-        }
+        color: #000000 !important;
     }
 }
 
