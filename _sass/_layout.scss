@@ -31,7 +31,8 @@ div.highlight {
     background-color: #ffffff;
 
     .navbar-item,
-    .navbar-link {
+    .navbar-link,
+    .navbar-brand > .navbar-item {
         color: #000000;
     }
 
@@ -41,6 +42,15 @@ div.highlight {
 
     .navbar-burger {
         color: #000000;
+    }
+
+    @include from($navbar-breakpoint) {
+        .navbar-start > .navbar-item,
+        .navbar-end > .navbar-item,
+        .navbar-start .navbar-link,
+        .navbar-end .navbar-link {
+            color: #000000;
+        }
     }
 }
 
