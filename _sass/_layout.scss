@@ -27,6 +27,23 @@ div.highlight {
     margin-bottom: 1rem;
 }
 
+.navbar.is-primary {
+    background-color: #ffffff;
+
+    .navbar-item,
+    .navbar-link {
+        color: #000000;
+    }
+
+    .navbar-link:not(.is-arrowless)::after {
+        border-color: #000000;
+    }
+
+    .navbar-burger {
+        color: #000000;
+    }
+}
+
 
 @include desktop {
     .navbar-item {
