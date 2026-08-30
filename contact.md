@@ -14,11 +14,11 @@ hide_footer: false
 <!-- TODO: replace with your lab's real contacts -->
 ## Principal Investigator
 
-### [Your Name]
-[Your Institution / Department], [Street Address], [City, State ZIP]
+### Yunwoo Lee
+E7-214, Daegu Gyeongbuk Institute of Science and Technology, 333 Technojungang-daero, Hyeonpung-eup, Dalseong-gun, Daegu, South Korea [42988]
 
-Email: [you@example.com](mailto:you@example.com)
+Email: [yunwoo.lee@dgist.ac.kr](mailto:yunwoo.lee@dgist.ac.kr)
 
-## General Inquiries
+<!-- ## General Inquiries
 
-Email: [contact@openautonomylab.org](mailto:contact@openautonomylab.org)
+Email: [contact@openautonomylab.org](mailto:contact@openautonomylab.org) -->
