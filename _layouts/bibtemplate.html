@@ -16,6 +16,7 @@
     </script>
     {% endif %}
     <br />
+{% if entry.year %}
 <button class="button0"  onclick="toggle{{entry.key  | replace: '-':'' | replace: ':':''}}()">bibtex</button>
 
 <script>
@@ -44,6 +45,7 @@
         }
     }
 </script>
+{% endif %}
 
 {% if entry.abstract %}
 <button class="button3" onclick="toggle2{{entry.key  | replace: '-':'' | replace: ':':''}}()">abstract</button>
