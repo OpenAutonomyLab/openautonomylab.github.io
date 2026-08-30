@@ -1,6 +1,6 @@
 ---
 title: Open Autonomy Lab
-subtitle: We research fully autonomous robots
+subtitle: We pursue fully autonomous robots
 layout: page
 show_sidebar: false
 hide_footer: false
