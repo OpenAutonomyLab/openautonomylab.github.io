@@ -3,7 +3,17 @@
 <div class="text-justify">
     {{reference}}
     {% if entry.note %}
-    <span class="pub-award-badge">🏆 {{ entry.note }}</span>
+    <span id="award-{{entry.key}}" class="pub-award-badge">🏆 {{ entry.note }}</span>
+    <script>
+        (function () {
+            var entry = document.getElementById('{{entry.key}}');
+            var badge = document.getElementById('award-{{entry.key}}');
+            var title = entry && entry.querySelector('.csl-title');
+            if (title && badge) {
+                title.insertAdjacentElement('afterend', badge);
+            }
+        })();
+    </script>
     {% endif %}
     <br />
 <button class="button0"  onclick="toggle{{entry.key  | replace: '-':'' | replace: ':':''}}()">bibtex</button>
