@@ -8,9 +8,9 @@
         (function () {
             var entry = document.getElementById('{{entry.key}}');
             var badge = document.getElementById('award-{{entry.key}}');
-            var title = entry && entry.querySelector('.csl-title');
-            if (title && badge) {
-                title.insertAdjacentElement('afterend', badge);
+            var content = entry && entry.querySelector('.csl-content');
+            if (content && badge) {
+                content.appendChild(badge);
             }
         })();
     </script>
