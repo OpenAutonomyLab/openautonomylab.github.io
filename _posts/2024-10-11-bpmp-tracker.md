@@ -3,7 +3,7 @@ layout: post
 title: "BPMP-Tracker: A Versatile Aerial Target Tracker Using Bernstein Polynomial Motion Primitives"
 date: 2024-10-11 00:00:00
 categories: research
-tags: Target Tracking, Motion Planning and Control, UAV
+tags: Planning
 description: "A fast sample-check-select trajectory planner that chases single or multiple targets through crowded, dynamic environments."
 author: "Yunwoo Lee"
 published: true

@@ -3,7 +3,7 @@ layout: post
 title: "Mono-Camera-Only Target Chasing for a Drone in a Dense Environment by Cross-Modal Learning"
 date: 2024-05-30 00:00:00
 categories: research
-tags: Target Tracking, UAV
+tags: Planning, Learning
 description: "Chasing a target with a single RGB camera by learning a cross-modal representation that stands in for multi-sensor data."
 author: "Yunwoo Lee"
 published: true
