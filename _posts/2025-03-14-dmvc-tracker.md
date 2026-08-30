@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DMVC-Tracker: Distributed Multi-Agent Trajectory Planning for Target Tracking Using Dynamic Buffered Voronoi and Inter-Visibility Cells"
-date: 2025-01-02 00:00:00
+date: 2025-03-14 00:00:00
 categories: research
 tags: Multi-Robot System, Target Tracking, Motion Planning and Control, UAV
 description: "A distributed trajectory planner that lets a drone swarm track a moving target without colliding or occluding each other."

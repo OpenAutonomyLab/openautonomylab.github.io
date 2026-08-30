@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Autonomous Aerial Dual-Target Following Among Obstacles"
-date: 2021-01-01 00:00:00
+date: 2021-10-04 00:00:00
 categories: research
 tags: Target Tracking, Motion Planning and Control, UAV
 description: "A visibility-aware planner that lets a single drone follow two targets at once amid obstacles."

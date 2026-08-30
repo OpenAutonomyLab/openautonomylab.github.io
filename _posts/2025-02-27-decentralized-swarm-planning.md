@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Decentralized Trajectory Planning for Quadrotor Swarm in Cluttered Environments with Goal Convergence Guarantee"
-date: 2025-01-03 00:00:00
+date: 2025-02-27 00:00:00
 categories: research
 tags: Multi-Robot System, Motion Planning and Control, UAV
 description: "A decentralized swarm planner that provably converges to the goal and stays deadlock-free in maze-like environments."

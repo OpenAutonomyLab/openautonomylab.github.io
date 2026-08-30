@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Multirobot Collaborative Monocular SLAM Utilizing Rendezvous"
-date: 2021-01-02 00:00:00
+date: 2021-03-19 00:00:00
 categories: research
 tags: Multi-Robot System, UAV/UGV
 description: "A collaborative monocular SLAM system that fuses maps across robots by exploiting rendezvous events, camera-only."
