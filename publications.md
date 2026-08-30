@@ -49,6 +49,9 @@ hide_footer: false
 
 </style>
 
+# Under Review
+{% bibliography --query @misc %}
+
 # 2025
 {% bibliography --query @*[year=2025] %}
 
