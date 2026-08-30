@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Current Openings
+subtitle: Great minds are always welcome!
 show_sidebar: false
 hide_footer: false
 ---
@@ -9,16 +10,16 @@ hide_footer: false
 
 ## Prospective Graduate Students
 
-Describe how prospective graduate students should apply and when to reach out.
+If you are interested in joining the lab, please reach out to Yunwoo with your CV. We are primarily recruiting students for Spring 2027. Exceptionally strong candidates may also be considered for Fall 2026. 
 
-## Current Students
+## Current DGIST Undergrads
 
-Describe how current students at your institution can get involved with the lab.
+Experience with Linux, ROS, and robot hardware is preferred, but strong motivation can make up for it. Tell us why you want the internship and what makes you stand out. Contact Yunwoo directly.
 
 ## Staff / Postdoc Positions
 
-Describe how candidates for staff or postdoc positions should apply, and who to contact.
+Postdoc positions are expected to be available starting in Fall 2026.
 
-## Student Projects
+<!-- ## Student Projects
 
-List or link to any open student project opportunities here.
+List or link to any open student project opportunities here. -->
