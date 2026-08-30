@@ -2,6 +2,9 @@
 ---
 <div class="text-justify">
     {{reference}}
+    {% if entry.note %}
+    <span class="pub-award-badge">🏆 {{ entry.note }}</span>
+    {% endif %}
     <br />
 <button class="button0"  onclick="toggle{{entry.key  | replace: '-':'' | replace: ':':''}}()">bibtex</button>
 

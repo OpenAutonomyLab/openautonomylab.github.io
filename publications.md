@@ -34,6 +34,18 @@ hide_footer: false
   counter-increment: list;
 }
 
+.pub-award-badge {
+  display: inline-block;
+  margin: 6px 0 0;
+  padding: 3px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #7a5b00;
+  background: #fff4d6;
+  border: 1px solid #f0d585;
+  border-radius: 999px;
+}
+
 </style>
 
 # 2025
