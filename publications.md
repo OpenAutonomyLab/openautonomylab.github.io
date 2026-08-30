@@ -35,8 +35,9 @@ hide_footer: false
 }
 
 .pub-award-badge {
-  display: inline-block;
-  margin: 6px 0 0;
+  display: block;
+  width: fit-content;
+  margin: 6px 0 8px;
   padding: 3px 10px;
   font-size: 13px;
   font-weight: 600;
