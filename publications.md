@@ -36,8 +36,14 @@ hide_footer: false
 
 </style>
 
-<!-- TODO: entries come from _bibliography/references.bib (BibTeX), grouped by year.
-     Add a `# YYYY` heading + bibliography query for each year you want to publish. -->
+# 2025
+{% bibliography --query @*[year=2025] %}
 
-# 2026
-{% bibliography --query @*[year=2026] %}
+# 2024
+{% bibliography --query @*[year=2024] %}
+
+# 2023
+{% bibliography --query @*[year=2023] %}
+
+# 2021
+{% bibliography --query @*[year=2021] %}
