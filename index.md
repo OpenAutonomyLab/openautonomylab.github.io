@@ -5,7 +5,7 @@ layout: page
 show_sidebar: false
 hide_footer: false
 hero_height: is-large
-hero_image: /img/lab_website_background_compressed.png
+hero_image: /img/robots_only_twinkle_fixedlines.gif
 hero_link: /research/
 hero_link_text: See Our Research
 
