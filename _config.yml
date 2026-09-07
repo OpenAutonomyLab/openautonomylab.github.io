@@ -8,6 +8,12 @@ baseurl:
 url: "https://oalab.org"
 permalink: pretty
 
+# Publish posts even if their `date:` is later than the build time.
+# Without this, a post dated ahead of the actual build date (e.g. announcing
+# something for a specific day) silently disappears from listings like Home's
+# Highlights section until that date arrives on the server doing the build.
+future: true
+
 paginate: 5
 paginate_path: "/research/page:num"
 
