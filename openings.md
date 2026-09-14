@@ -16,6 +16,8 @@ If you are interested in joining the lab, please reach out to Yunwoo with your C
 
 We welcome students who are looking to gain real-robot or academic research experience in our lab. There is a chance to receive a modest living stipend during the 2026–2027 winter. Experience with Linux, ROS, and robot hardware is preferred, but strong motivation can make up for limited prior experience. When reaching out, please briefly explain why you are interested in undergraduate research or an internship in our lab and what makes you stand out.
 
+## Visitors
+We also welcome visiting students for research collaboration.
 
 ## Staff / Postdoc Positions
 
