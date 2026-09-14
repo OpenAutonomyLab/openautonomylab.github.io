@@ -10,15 +10,16 @@ hide_footer: false
 
 ## Prospective Graduate Students
 
-If you are interested in joining the lab, please reach out to Yunwoo with your CV. We are primarily recruiting students for Spring 2027. Exceptionally strong candidates may also be considered for Fall 2026. 
+If you are interested in joining the lab, please reach out to Yunwoo with your CV. We are primarily recruiting students for Spring 2027. 
 
-## Current DGIST Undergrads
+## Current Undergrads
 
-Experience with Linux, ROS, and robot hardware is preferred, but strong motivation can make up for it. Tell us why you want the internship and what makes you stand out. Contact Yunwoo directly.
+We welcome students who are looking to gain real-robot or academic research experience in our lab. There is a chance to receive a modest living stipend during the 2026–2027 winter. Experience with Linux, ROS, and robot hardware is preferred, but strong motivation can make up for limited prior experience. When reaching out, please briefly explain why you are interested in undergraduate research or an internship in our lab and what makes you stand out.
+
 
 ## Staff / Postdoc Positions
 
-Postdoc positions are expected to be available starting in Fall 2026.
+<!-- Postdoc positions are expected to be available starting in Fall 2026. -->
 
 <!-- ## Student Projects
 
