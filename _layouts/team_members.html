@@ -44,7 +44,7 @@ show_sidebar: false
 {% assign sorted_postdocs = site.team | where:"category","postdoc" %}
 {% assign sorted_persons = sorted_scientists | concat: sorted_postdocs %}
 {% assign n = sorted_persons | size %}
-{% assign sorted_persons = sorted_persons | sample: n %}
+{% if n > 1 %}{% assign sorted_persons = sorted_persons | sample: n %}{% endif %}
 {% for person in sorted_persons %}
 <div class="column is-one-fifth-desktop is-6-tablet">
   <a href="{{ person.url | prepend: site.baseurl }}">
@@ -100,7 +100,7 @@ show_sidebar: false
 {% assign sorted_master = site.team | where:"category","master_student" %}
 {% assign sorted_students = sorted_phd | concat: sorted_master %}
 {% assign n = sorted_students | size %}
-{% assign sorted_students = sorted_students | sample: n %}
+{% if n > 1 %}{% assign sorted_students = sorted_students | sample: n %}{% endif %}
 {% for product in sorted_students %}
 <div class="column is-one-fifth-desktop is-6-tablet">
   <a href="{{ product.url | prepend: site.baseurl }}">
@@ -128,7 +128,7 @@ show_sidebar: false
 <div class="columns is-multiline">
 {% assign sorted_products = site.team | where:"category","staff" %}
 {% assign n = sorted_products | size %}
-{% assign sorted_products = sorted_products | sample: n %}
+{% if n > 1 %}{% assign sorted_products = sorted_products | sample: n %}{% endif %}
 {% for product in sorted_products %}
 <div class="column is-one-fifth-desktop is-6-tablet">
   <a href="{{ product.url | prepend: site.baseurl }}">
@@ -179,7 +179,7 @@ show_sidebar: false
 
 {% assign sorted_products = site.team | where:"category","undergraduate" %}
 {% assign n = sorted_products | size %}
-{% assign sorted_products = sorted_products | sample: n %}
+{% if n > 1 %}{% assign sorted_products = sorted_products | sample: n %}{% endif %}
 {% if sorted_products.size > 0 %}
 <h1 style="font-size:35px;">Undergraduate Students</h1>
 <br>
