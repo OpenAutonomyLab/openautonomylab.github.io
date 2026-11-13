@@ -1,7 +1,7 @@
 ---
 title: T/O Reserved
-subtitle: Open Position
-job_title: Open Position
+subtitle: M.S-Ph.D Integrated
+job_title: M.S-Ph.D Integrated
 category: phd_student
 layout: team_member_personal_page
 image: /img/team/placeholder-reserved.png
