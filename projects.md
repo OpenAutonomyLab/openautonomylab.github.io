@@ -31,8 +31,23 @@ hide_footer: false
 }
 </style>
 
+# Mobile Robot
+
 <ol class="project-list">
-{% for project in site.data.projects %}
+{% assign mobile_robot_projects = site.data.projects | where: "category", "Mobile Robot" %}
+{% for project in mobile_robot_projects %}
+<li>
+    <span class="project-title">{{ project.title }}</span>
+    <span class="project-meta">{{ project.sponsor }}, {{ project.period }}</span>
+</li>
+{% endfor %}
+</ol>
+
+# Humanoids
+
+<ol class="project-list">
+{% assign humanoid_projects = site.data.projects | where: "category", "Humanoids" %}
+{% for project in humanoid_projects %}
 <li>
     <span class="project-title">{{ project.title }}</span>
     <span class="project-meta">{{ project.sponsor }}, {{ project.period }}</span>
